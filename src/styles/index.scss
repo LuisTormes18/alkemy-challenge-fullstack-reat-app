@@ -1,0 +1,84 @@
+:root {
+  --colorPrimary: #6b6c6d;
+  --colorSecundary: #f1f1f1;
+  --colorIngress: rgb(108, 108, 231);
+  --colorEgress: rgb(214, 77, 77);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  height: 100px;
+  align-items: center;
+}
+
+.form {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+.ligth-gray{
+  color: var(--colorPrimary);
+}
+.page {
+  height: 100vh;
+}
+.bg1 {
+  background-color: var(--colorSecundary);
+}
+.logo {
+  font-weight: bold;
+  font-size: 16px;
+}
+.active {
+  color: white;
+}
+.link {
+  padding: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.active{
+  color:blue;
+}
+.caption {
+  text-transform: uppercase;
+}
+.entry {
+  background-color: var(--colorIngress);
+}
+.egress {
+  background-color: var(--colorEgress);
+}
+.t-entry {
+  color: var(--colorIngress);
+}
+.t-egress {
+  color: var(--colorEgress);
+}
+.title {
+  text-align: center;
+}
+.span{
+display:inline-block;
+  padding: 0 10px;
+}
+
+
+
