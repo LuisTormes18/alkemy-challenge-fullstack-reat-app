@@ -1,7 +1,7 @@
-// const base_url = "https://warm-ridge-60036.herokuapp.com/api";
-const base_url ='http://localhost:4001/api';
+const base_url = "https://warm-ridge-60036.herokuapp.com/api";
+// const base_url ='http://localhost:4001/api';
 const login_url = `${base_url}/auth`;
-const updateToken_url = login_url;
+const url_updateToken = `${base_url}/auth`;
 const register_url = `${base_url}/auth/add`;
 
 const url_get_by_limit = `${base_url}/budget/get-top/`
@@ -16,11 +16,11 @@ export  {
   base_url,
   login_url,
   register_url,
-  updateToken_url,
   url_new_record,
   url_delete_record,
   url_update_record,
   url_get_total_budget,
   url_get_by_limit,
-  url_get_by_type
+  url_get_by_type,
+  url_updateToken,
 };
